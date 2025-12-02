@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-dashboard {
+    flex-direction: column;
+    background-color: rgb(244, 249, 248);
+    border-radius: 15px;
+}
+
+.side-bar {
+    background-color: rgb(89, 244, 84);
+    width: 20%;
+    height: 800px;
+    padding: 15px;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    gap: 15px;
+
+}
+
+.logo {
+    width: 100px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.nav-links {
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.nav-item {
+    display: flex;
+    color: #ffff;
+    gap: 10px;
+    margin: 10px;
+    padding: px;
+    margin: 10px;
+}
+
+.nav-item:hover {
+    color: blue;
+    transition: 1s ease-in-out;
+    transform: scale(1.2);
+}
+
+.dashboard-icon {
+    width: 20px;
+    color: #ffff;
+}
+
+.nav-item-dash {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    color: green;
+    gap: 10px;
+}
+
+.nav-item-dash:hover {
+    color: blue;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.contact-now {
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    color: green;
+    gap: 10px;
+    width: fit-content;
+}
+
+.contact-now:hover {
+    color: blue;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.contact-now-p {
+    appearance: unset;
+    text-align: calc();
+
+}
+.customer-support {
+    padding-bottom: 10px;
+}
+
+.terms-services {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
